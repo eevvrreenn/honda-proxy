@@ -1,0 +1,8 @@
+{
+  "name": "honda-bayi-proxy",
+  "version": "1.0.0",
+  "description": "Supabase proxy for Honda Bayi Ziyaret Sistemi",
+  "engines": {
+    "node": "18.x"
+  }
+}
