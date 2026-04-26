@@ -1,5 +1,5 @@
-const SUPABASE_URL = 'https://lplgqdnsleocmbilbiem.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxwbGdxZG5zbGVvY21iaWxiaWVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxMjM5NjgsImV4cCI6MjA4OTY5OTk2OH0.b2-gE86CKadLeAzL72leFPxE2XlCupvq4GKI0I3CfBo';
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY;
 
 // İzin verilen origin'ler (GitHub Pages siteniz)
 const ALLOWED_ORIGINS = [
